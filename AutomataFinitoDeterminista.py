@@ -7,7 +7,7 @@ estados = []
 alfabeto = []
 estadoFinal = []
 estadoInicial = []
-transiciones = []
+transiciones = {}
 
 palabra = ""
 
@@ -31,9 +31,9 @@ for state in estados:
         dest = input()
 
         if dest == ".":
-            transiciones[estados, alpha] = None
+            transiciones[(state, alpha)] = None
         else:
-            transiciones[estados, alpha] = dest
+            transiciones[(state, alpha)] = dest
 
 print("Escribe la palabra a evaluar: ", end="")
 palabra = input()
