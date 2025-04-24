@@ -6,7 +6,7 @@
 estados = []
 alfabeto = []
 estadoFinal = []
-estadoInicial = []
+estadoInicial = ""
 transiciones = {}
 
 print("Escribe los estados del automata separados por espacio: ", end="")
