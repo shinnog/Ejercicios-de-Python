@@ -6,7 +6,7 @@
 estados = []
 alfabeto = []
 estadoFinal = []
-estadoInicial = []
+estadoInicial = ""
 transiciones = {}
 
 palabra = ""
